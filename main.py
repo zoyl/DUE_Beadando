@@ -8,8 +8,6 @@ class KeyGeneratorGUI:
     def __init__(self, master):
         master.title("Key generator")
         self.plaintext = tk.StringVar(master, value="")
-        self.ciphertext = tk.StringVar(master, value="")
-        self.key = tk.IntVar(master)
 
         # Plaintext controls
         tk.Label(master, text="Seed", fg="green", font=FONT).grid(row=0, column=0)
