@@ -29,5 +29,5 @@ class KeyGeneratorGUI:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    caesar = KeyGeneratorGUI(root)
+    keygen = KeyGeneratorGUI(root)
     root.mainloop()
